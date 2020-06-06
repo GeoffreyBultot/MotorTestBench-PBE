@@ -1,0 +1,8 @@
+lien : 
+https://kivy.org/doc/stable/installation/installation-windows.html
+
+
+commande CMD :
+kivy_venv\Scripts\activate
+en bash:
+source kivy_venv/Scripts/activate

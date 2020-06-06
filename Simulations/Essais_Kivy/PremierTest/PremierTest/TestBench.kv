@@ -1,0 +1,83 @@
+<TestBenchWindow>:
+    pos_hint: {'left_x': 0, 'left_y': 0}
+    do_default_tab: False
+    
+    
+            
+    TabbedPanelItem:
+        id : tabbedManual
+        text: 'Manuel'
+        FloatLayout:
+            
+            canvas.before:
+                Color:
+                    rgb: .8, 1, 1
+                Rectangle:
+                    size: self.size
+                    source: 'KvDatas/img/background.png'
+            Label:
+                text: 'Umotor'
+                pos: [-350,-100]
+            Label:
+                text: root.MotorVoltage
+                pos: [-350,20]
+                size_hint:1,.01
+                canvas.before: 
+                    Color: 
+                        rgb: .5,.5,0 
+                    Rectangle: 
+                        pos: [20,350]
+                        size: 30,30
+            Button:
+                id: button1
+                pos: [350,20]
+                size: 75, 50
+                text: "Change text"
+                size_hint: None, None 
+                on_release: root.change_text()
+                border: 0,0,0,0
+            
+            Label:
+                text: 'Imotor'
+                pos: [-350,-80]
+            Label:
+                text: 'speed :'
+                pos: [-350,-60]
+                
+            Label:
+                text: 'Ufrein'
+                pos: [-350,-40]
+            Label:
+                text: 'Ifrein'
+                pos: [-350,-20]
+            Label:
+                text: 'Ufrein'
+                pos: [-350,0]
+    TabbedPanelItem:
+        text: 'Automatique'
+        
+        FloatLayout:
+        
+            Label:
+                text: 'First tab content area'
+            Label:
+                text: 'First tab content area'
+            Label:
+                text: 'First tab content area'
+            Label:
+                text: 'First tab content area'
+
+
+    TabbedPanelItem:
+        text: 'Graphiques'
+        BoxLayout:
+            Label:
+                text: 'Second tab content area'
+            Button:
+                text: 'Button that does nothing'
+    TabbedPanelItem:
+        text: 'Configuration'
+        RstDocument:
+            text:
+                '\\n'.join(("Hello world", "-----------",
+                "You are in the third tab."))

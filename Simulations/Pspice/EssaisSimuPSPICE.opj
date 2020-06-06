@@ -1,0 +1,116 @@
+(ExpressProject "EssaisSimuPSPICE"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "D:\Cadence\SPB_17.2\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "D:\Cadence\SPB_17.2\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\SPB_17.2\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "D:\Cadence\SPB_17.2\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\SPB_17.2\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "D:\Cadence\SPB_17.2\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\SPB_17.2\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "D:\Cadence\SPB_17.2\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\SPB_17.2\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "D:\Cadence\SPB_17.2\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "essaissimupspice.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\essaissimupspice-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Datasheets_Composants\Mesures_Jauge_Contrainte\Spice model\ad623.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Datasheets_Composants\Mesures_Jauge_Contrainte\Spice model\ad623.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\essaissimupspice-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\essaissimupspice-pspicefiles\schematic1\testsimu.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\essaissimupspice-pspicefiles\schematic1\testsimu.sim"
+        (DisplayName "SCHEMATIC1-TestSimu")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "geoff")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Simulations\Pspice\essaissimupspice.dsn")
+      (Path "Design Resources"
+         "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Simulations\Pspice\essaissimupspice.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Simulations\Pspice\essaissimupspice.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "-61 0")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "D:\GEOFF\DOCUMENTS\ONEDRIVE - HE2B.BE\ECOLE 2019 - 2020\Q2\BUREAU_ETUDE\1803 - BANC D_ESSAIS MOTEUR\BANC_ESSAI_ELECTRONIQUE\SIMULATIONS\PSPICE\ESSAISSIMUPSPICE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

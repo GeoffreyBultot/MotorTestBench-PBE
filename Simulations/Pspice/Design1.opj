@@ -1,0 +1,71 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    ("GND_FIELD SIGNAL"
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AD623
+      (FullPartName "AD623.Normal")
+      (LibraryName
+         "D:\GEOFF\DOCUMENTS\ONEDRIVE - HE2B.BE\ECOLE 2019 - 2020\Q2\BUREAU_ETUDE\1803 - BANC D_ESSAIS MOTEUR\BANC_ESSAI_ELECTRONIQUE\DATASHEETS_COMPOSANTS\MESURES_JAUGE_CONTRAINTE\SPICE MODEL\AD623.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (IXTH10P50
+      (FullPartName "IXTH10P50.Normal")
+      (LibraryName
+         "D:\GEOFF\DOCUMENTS\ONEDRIVE - HE2B.BE\ECOLE 2019 - 2020\Q2\BUREAU_ETUDE\1803 - BANC D_ESSAIS MOTEUR\BANC_ESSAI_ELECTRONIQUE\DATASHEETS_COMPOSANTS\HACHEUR_MOTEUR_FREIN\SPICEMODEL\IXTH10P50\IXTH10P50.OLB")
+      (DeviceIndex "0"))
+    (MBR20100CT
+      (FullPartName "MBR20100CT.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIH.OLB")
+      (DeviceIndex "0"))
+    (TLC2262/101/TI
+      (FullPartName "TLC2262/101/TI.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\TEX_INST.OLB")
+      (DeviceIndex "0"))
+    (TLC2264/101/TI
+      (FullPartName "TLC2264/101/TI.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\TEX_INST.OLB")
+      (DeviceIndex "3"))
+    (AD621/SO
+      (FullPartName "AD621/SO.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Datasheets_Composants\Mesures_Jauge_Contrainte\Spice model")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0)))
+  (MPSSessionName "geoff"))

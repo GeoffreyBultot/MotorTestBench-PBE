@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-TestSimu"  [ D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Simulations\Pspice\EssaisSimuPSPICE-PSpiceFiles\SCHEMATIC1\TestSimu.sim ] 
+
+** Creating circuit file "TestSimu.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "D:/geoff/Documents/OneDrive - he2b.be/Ecole 2019 - 2020/Q2/Bureau_Etude/1803 - Banc d_essais Moteur/BANC_ESSAI_ELECTRONIQUE/D"
++ "atasheets_Composants/Mesures_Jauge_Contrainte/Spice model/ad623.lib" 
+* From [PSPICE NETLIST] section of D:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

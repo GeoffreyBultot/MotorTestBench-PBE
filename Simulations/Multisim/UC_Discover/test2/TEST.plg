@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\Simulations_prototypes\UC_Discover\test2\TEST.uvproj
+Project File Date:  02/21/2020
+
+<h2>Output:</h2>
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+_____^
+*** error 56: cant open file
+Build target 'Target 1'
+assembling STM32F10x.s...
+linking...
+TEST.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+TEST.axf: Error: L6411W: No compatible library exists with a definition of startup symbol __main.
+TEST.axf: Not enough information to list image symbols.
+TEST.axf: Not enough information to list the image map.
+TEST.axf: Finished: 2 information, 1 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(1): warning:  #951-D: return type of function "main" must be "int"
+main.c:   void main (void)
+main.c:        ^
+main.c(4): warning:  #1-D: last line of file ends without a newline
+main.c:   }
+main.c:    ^
+main.c: main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=336 RO-data=252 RW-data=0 ZI-data=608  
+"TEST.axf" - 0 Error(s), 2 Warning(s).
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+USB Communication Failure
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+USB Communication Failure
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+*** Error: 'C:\Keil\ARM\Signum\SigUV3Arm.dll' invalid peripheral driver
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+USB Communication Failure
+Load "D:\\geoff\\Documents\\OneDrive - he2b.be\\Ecole 2019 - 2020\\Q2\\Bureau_Etude\\Simulations_prototypes\\UC_Discover\\test2\\TEST.AXF" 
+USB Communication Failure

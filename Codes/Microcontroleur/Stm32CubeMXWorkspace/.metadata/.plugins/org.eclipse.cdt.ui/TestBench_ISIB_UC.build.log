@@ -1,0 +1,10 @@
+21:56:59 **** Incremental Build of configuration Debug for project TestBench_ISIB_UC ****
+make -j4 all 
+arm-none-eabi-size   TestBench_ISIB_UC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27736	    388	   6332	  34456	   8698	TestBench_ISIB_UC.elf
+Finished building: default.size.stdout
+ 
+
+21:57:04 Build Finished. 0 errors, 0 warnings. (took 4s.797ms)
+

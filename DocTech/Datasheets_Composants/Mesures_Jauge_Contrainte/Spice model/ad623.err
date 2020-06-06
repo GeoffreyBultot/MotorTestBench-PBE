@@ -1,0 +1,7 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Wednesday, April 01, 2020 12:50:49
+INFO(ORSCH-1029): Using existing library 'D:\Cadence\SPB_17.2\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'D:\geoff\Documents\OneDrive - he2b.be\Ecole 2019 - 2020\Q2\Bureau_Etude\1803 - Banc d_essais Moteur\BANC_ESSAI_ELECTRONIQUE\Datasheets_Composants\Mesures_Jauge_Contrainte\Spice model\ad623.olb'.
+STATUS: Translator stopped at Wednesday, April 01, 2020 12:51:28
+STATUS: 0 Error messages, 0 Warning messages
