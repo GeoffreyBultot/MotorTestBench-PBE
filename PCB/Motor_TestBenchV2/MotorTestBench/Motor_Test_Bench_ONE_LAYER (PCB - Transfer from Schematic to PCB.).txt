@@ -1,0 +1,155 @@
+Transfer from Schematic to PCB.
+-------------------------------
+
+Report Written:     Friday, June 05, 2020
+Design Path:        C:\Users\geoff\Documents\EAGLE\projects\Motor_TestBenchV2\MotorTestBench\Motor_Test_Bench_ONE_LAYER.pcb
+Design Title:       
+Created:            05-06-20 10:31:43
+Last Saved:         05-06-20 10:31:55
+Editing Time:       0 min
+Units:              thou (precision 0)
+
+Net class "default" was not defined, but has been created. Please check the values in the PCB design.
+Could not load component "STM32F103C8T6" package "QFP50P900X900X160-48N" into target design.
+Could not add "U1" component "STM32F103C8T6" package "QFP50P900X900X160-48N" to target design.
+Could not load component "AD623ANZ" package "DIP254P762X533-8" into target design.
+Could not add "U3" component "AD623ANZ" package "DIP254P762X533-8" to target design.
+Could not load component "SC-10-30J" package "SC-10-30J" into target design.
+Could not add "U4" component "SC-10-30J" package "SC-10-30J" to target design.
+Could not add "U5" component "SC-10-30J" package "SC-10-30J" to target design.
+Could not load component "FOX_ELECTRONICS_FOXSLF-080-20FOX_ELECTRONICS_FOXSLF-080-20_0_0" package "FOX_ELECTRONICS_FOXSLF-080-20_0" into target design.
+Could not add "Y1" component "FOX_ELECTRONICS_FOXSLF-080-20FOX_ELECTRONICS_FOXSLF-080-20_0_0" package "FOX_ELECTRONICS_FOXSLF-080-20_0" to target design.
+Could not load component "ON_SEMI_LM317BTGON_SEMI_LM317BTG_0_0" package "ON_SEMI_LM317BTG_0" into target design.
+Could not add "U6" component "ON_SEMI_LM317BTGON_SEMI_LM317BTG_0_0" package "ON_SEMI_LM317BTG_0" to target design.
+Could not load component "TEXAS_INSTRUMENTS_TLC2264CNTEXAS_INSTRUMENTS_TLC2264CN_0_0" package "TEXAS_INSTRUMENTS_TLC2264CN_0" into target design.
+Could not add "U9" component "TEXAS_INSTRUMENTS_TLC2264CNTEXAS_INSTRUMENTS_TLC2264CN_0_0" package "TEXAS_INSTRUMENTS_TLC2264CN_0" to target design.
+Could not load component "TEXAS_INSTRUMENTS_TLC2262CPTEXAS_INSTRUMENTS_TLC2262CP_0_0" package "TEXAS_INSTRUMENTS_TLC2262CP_0" into target design.
+Could not add "U10" component "TEXAS_INSTRUMENTS_TLC2262CPTEXAS_INSTRUMENTS_TLC2262CP_0_0" package "TEXAS_INSTRUMENTS_TLC2262CP_0" to target design.
+Could not load component "RRS05_69-70" package "RS05_69-70" into target design.
+Could not add "RSHUNT1" component "RRS05_69-70" package "RS05_69-70" to target design.
+Could not add "RSHUNT2" component "RRS05_69-70" package "RS05_69-70" to target design.
+Could not load component "R-EU_R0805" package "R0805" into target design.
+Could not add "R13" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R7" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R8" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R9" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R10" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "691210910003" package "691210910003" into target design.
+Could not add "J1" component "691210910003" package "691210910003" to target design.
+Could not add "J2" component "691210910003" package "691210910003" to target design.
+Could not add "J3" component "691210910003" package "691210910003" to target design.
+Could not load component "B3B-XH-A(LF)(SN)" package "SHDR3W64P0X250_1X3_990X575X700" into target design.
+Could not add "J4" component "B3B-XH-A(LF)(SN)" package "SHDR3W64P0X250_1X3_990X575X700" to target design.
+Could not load component "B4B-XH-A(LF)(SN)" package "JST_B4B-XH-A(LF)(SN)" into target design.
+Could not add "J5" component "B4B-XH-A(LF)(SN)" package "JST_B4B-XH-A(LF)(SN)" to target design.
+Could not load component "691210910002" package "691210910002" into target design.
+Could not add "J6" component "691210910002" package "691210910002" to target design.
+Could not add "J7" component "691210910002" package "691210910002" to target design.
+Could not add "R6" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R4" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R5" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "JTAG-20" package "JTAG-20" into target design.
+Could not add "J8" component "JTAG-20" package "JTAG-20" to target design.
+Could not load component "PINHD-2X3" package "2X03" into target design.
+Could not add "JP1" component "PINHD-2X3" package "2X03" to target design.
+Could not add "R14" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R15" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R16" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "PINHD-1X2" package "1X02" into target design.
+Could not add "JP2" component "PINHD-1X2" package "1X02" to target design.
+Could not add "R17" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R18" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R19" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R20" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R21" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R22" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R23" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R24" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R25" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R26" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R27" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R28" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R29" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R30" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R31" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R32" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R33" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R34" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "C-EUC0805" package "C0805" into target design.
+Could not add "C2" component "C-EUC0805" package "C0805" to target design.
+Could not add "C3" component "C-EUC0805" package "C0805" to target design.
+Could not add "R35" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "SLPX102M200C4P3" package "SLPX102M200C4P3" into target design.
+Could not add "C5" component "SLPX102M200C4P3" package "SLPX102M200C4P3" to target design.
+Could not add "C6" component "SLPX102M200C4P3" package "SLPX102M200C4P3" to target design.
+Could not add "C7" component "SLPX102M200C4P3" package "SLPX102M200C4P3" to target design.
+Could not load component "IRM-10-5" package "IRM-10" into target design.
+Could not add "PS1" component "IRM-10-5" package "IRM-10" to target design.
+Could not load component "IRM-10-12" package "IRM-10" into target design.
+Could not add "PS2" component "IRM-10-12" package "IRM-10" to target design.
+Could not load component "SS-52100-001" package "SS52100001" into target design.
+Could not add "J10" component "SS-52100-001" package "SS52100001" to target design.
+Could not load component "UJ2-BH-1-TH" package "UJ2BH1TH" into target design.
+Could not add "J11" component "UJ2-BH-1-TH" package "UJ2BH1TH" to target design.
+Could not load component "MBRF10200CT" package "TO254P490X1000X2143-3P" into target design.
+Could not add "D1" component "MBRF10200CT" package "TO254P490X1000X2143-3P" to target design.
+Could not add "D2" component "MBRF10200CT" package "TO254P490X1000X2143-3P" to target design.
+Could not load component "IXTX32P60P" package "TO545P521X1594X2566-3P" into target design.
+Could not add "Q2" component "IXTX32P60P" package "TO545P521X1594X2566-3P" to target design.
+Could not load component "ZTX458" package "ZTX458" into target design.
+Could not add "Q3" component "ZTX458" package "ZTX458" to target design.
+Could not add "Q4" component "ZTX458" package "ZTX458" to target design.
+Could not add "R36" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R37" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "IXTP10P50P" package "TO254P483X1028X1700-3P" into target design.
+Could not add "Q1" component "IXTP10P50P" package "TO254P483X1028X1700-3P" to target design.
+Could not add "R38" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R39" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPBNATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_0_2" package "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_2" into target design.
+Could not add "U2" component "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPBNATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_0_2" package "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_2" to target design.
+Could not load component "ATMEGA328P-AN" package "QFP80P900X900X120-32N" into target design.
+Could not add "U11" component "ATMEGA328P-AN" package "QFP80P900X900X120-32N" to target design.
+Could not add "R40" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R41" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "CC0805KRX7R9BB104" package "CAP_0805" into target design.
+Could not add "C4" component "CC0805KRX7R9BB104" package "CAP_0805" to target design.
+Could not add "C8" component "CC0805KRX7R9BB104" package "CAP_0805" to target design.
+Could not add "R42" component "R-EU_R0805" package "R0805" to target design.
+Could not add "C9" component "CC0805KRX7R9BB104" package "CAP_0805" to target design.
+Could not load component "FT232RLSSOP" package "SSOP28DB" into target design.
+Could not add "U15" component "FT232RLSSOP" package "SSOP28DB" to target design.
+Could not add "J12" component "UJ2-BH-1-TH" package "UJ2BH1TH" to target design.
+Could not add "C10" component "CC0805KRX7R9BB104" package "CAP_0805" to target design.
+Could not load component "1825910-6" package "1825910-6" into target design.
+Could not add "S1" component "1825910-6" package "1825910-6" to target design.
+Could not add "S2" component "1825910-6" package "1825910-6" to target design.
+Could not load component "AVRISP-6" package "AVRISP" into target design.
+Could not add "ISP1" component "AVRISP-6" package "AVRISP" to target design.
+Could not load component "ADS1115BQDGSRQ1" package "SOP50P490X110-10N" into target design.
+Could not add "IC1" component "ADS1115BQDGSRQ1" package "SOP50P490X110-10N" to target design.
+Could not add "R1" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R2" component "R-EU_R0805" package "R0805" to target design.
+Could not load component "TIL191" package "DIP762W58P254L450H584Q4N" into target design.
+Could not add "IC2" component "TIL191" package "DIP762W58P254L450H584Q4N" to target design.
+Could not add "IC3" component "TIL191" package "DIP762W58P254L450H584Q4N" to target design.
+Could not add "R44" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R46" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R45" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R3" component "R-EU_R0805" package "R0805" to target design.
+Could not add "JP3" component "PINHD-1X2" package "1X02" to target design.
+Could not add "JP4" component "PINHD-1X2" package "1X02" to target design.
+Could not add "JP5" component "PINHD-1X2" package "1X02" to target design.
+Could not add "JP6" component "PINHD-1X2" package "1X02" to target design.
+Could not add "JP7" component "PINHD-1X2" package "1X02" to target design.
+Could not load component "EA-T220-51E" package "EAT22051E" into target design.
+Could not add "H1" component "EA-T220-51E" package "EAT22051E" to target design.
+Could not add "H2" component "EA-T220-51E" package "EAT22051E" to target design.
+Could not add "J9" component "B4B-XH-A(LF)(SN)" package "JST_B4B-XH-A(LF)(SN)" to target design.
+Could not add "R43" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R47" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R48" component "R-EU_R0805" package "R0805" to target design.
+Could not add "R49" component "R-EU_R0805" package "R0805" to target design.
+Could not add "U7" component "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPBNATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_0_2" package "NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_2" to target design.
+Could not add "R11" component "R-EU_R0805" package "R0805" to target design.
+
+End Of Report.

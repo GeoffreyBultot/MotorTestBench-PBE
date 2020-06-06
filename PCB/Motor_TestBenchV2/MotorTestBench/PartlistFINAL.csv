@@ -1,0 +1,117 @@
+Partlist
+
+Exported from Motor_Test_Bench.brd at 05-06-20 10:19
+
+EAGLE Version 9.5.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                                                                                    Package                                      Library                                   Position (mil)        Orientation
+
+C1       100n                                                                                     CAP_0805                                     Resistor_Capacitor                        (4331.25 1093.75)     MR270
+C2       100n                                                                                     CAP_0805                                     Resistor_Capacitor                        (4331.25 962.5)       MR90
+C3       100n                                                                                     CAP_0805                                     Resistor_Capacitor                        (3768.75 981.25)      MR180
+C4       100n                                                                                     CAP_0805                                     Resistor_Capacitor                        (3793.75 1525)        MR180
+C5       100n                                                                                     C0805                                        resistor                                  (2718.75 700)         MR270
+C6       100n                                                                                     C0805                                        resistor                                  (2718.75 487.5)       MR270
+C7       1000µ                                                                                    SLPX102M200C4P3                              SamacSys_Parts                            (1750 1962.5)         R0
+C8       1000µ                                                                                    SLPX102M200C4P3                              SamacSys_Parts                            (1750 3012.5)         R0
+C9       1000µ                                                                                    SLPX102M200C4P3                              SamacSys_Parts                            (2137.5 912.5)        R180
+D1       MBRF10200CT                                                                              TO254P490X1000X2143-3P                       SamacSys_Parts                            (112.5 2162.5)        R90
+D2       MBRF10200CT                                                                              TO254P490X1000X2143-3P                       SamacSys_Parts                            (100 1025)            R90
+IC1      ADS1115BQDGSRQ1                                                                          SOP50P490X110-10N                            SamacSys_Parts                            (3256.25 537.5)       MR180
+ISP1     AVRISP-6                                                                                 AVRISP                                       adafruit                                  (3318.75 1281.25)     R90
+J1       UJ2-BH-1-TH                                                                              UJ2BH1TH                                     SamacSys_Parts                            (5281.25 956.25)      R90
+J2                                                                                                691210910003                                 Wurth_Connectors_WR-TBL Rising Cage Clamp (5118.75 1650)        R270
+J3       B3B-XH-A(LF)(SN)                                                                         SHDR3W64P0X250_1X3_990X575X700               SamacSys_Parts                            (2831.25 200)         R180
+J4       B4B-XH-A(LF)(SN)                                                                         JST_B4B-XH-A(LF)(SN)                         B4B-XH-A_LF__SN_                          (3343.75 162.5)       R180
+J5       B4B-XH-A(LF)(SN)                                                                         JST_B4B-XH-A(LF)(SN)                         B4B-XH-A_LF__SN_                          (5200 3825)           R270
+J6                                                                                                691210910002                                 Wurth_Connectors_WR-TBL Rising Cage Clamp (1875 3750)           R180
+J7       UJ2-BH-1-TH                                                                              UJ2BH1TH                                     SamacSys_Parts                            (5262.5 2318.75)      R90
+J8                                                                                                691210910003                                 Wurth_Connectors_WR-TBL Rising Cage Clamp (200 3775)            R180
+J9       JTAG-20                                                                                  JTAG-20                                      luminary-arm                              (2575 3787.5)         MR0
+J10                                                                                               691210910002                                 Wurth_Connectors_WR-TBL Rising Cage Clamp (1850 187.5)          R180
+J11                                                                                               691210910003                                 Wurth_Connectors_WR-TBL Rising Cage Clamp (225 175)             R180
+J12      SS-52100-001                                                                             SS52100001                                   SamacSys_Parts                            (4775 2900)           R90
+JP1                                                                                               1X02                                         DC_LOAD_AU                                (4743.75 1368.75)     R0
+JP2                                                                                               1X02                                         DC_LOAD_AU                                (4781.25 1893.75)     R0
+JP3                                                                                               1X02                                         DC_LOAD_AU                                (4600 2806.25)        R270
+JP4                                                                                               2X03                                         pinhead                                   (3350 3087.5)         R270
+JP5                                                                                               1X02                                         DC_LOAD_AU                                (3312.5 3787.5)       R270
+JP6                                                                                               1X02                                         DC_LOAD_AU                                (3162.5 3787.5)       R270
+JP7                                                                                               1X02                                         DC_LOAD_AU                                (4593.75 3262.5)      R270
+PS1      IRM-10-12                                                                                IRM-10                                       SamacSys_Parts                            (3475 1887.5)         R270
+PS2      IRM-10-5                                                                                 IRM-10                                       SamacSys_Parts                            (4462.5 2062.5)       R90
+Q1       TIL191                                                                                   DIP762W58P254L450H584Q4N                     SamacSys_Parts                            (3056.25 1356.25)     R90
+Q2       IXTX32P60P                                                                               TO545P521X1594X2566-3P                       SamacSys_Parts                            (100 2637.5)          R90
+Q3       TIL191                                                                                   DIP762W58P254L450H584Q4N                     SamacSys_Parts                            (2831.25 1356.25)     R270
+Q4       ZTX458                                                                                   ZTX458                                       SamacSys_Parts                            (662.5 2087.5)        R0
+Q5       IXTP10P50P                                                                               TO254P483X1028X1700-3P                       SamacSys_Parts                            (100 525)             R90
+Q6       ZTX458                                                                                   ZTX458                                       SamacSys_Parts                            (662.5 1850)          R0
+R1       10k                                                                                      R0805                                        resistor                                  (4331.25 650)         MR90
+R2       10k                                                                                      R0805                                        resistor                                  (4331.25 481.25)      MR270
+R3       240                                                                                      R0805                                        resistor                                  (4706.25 406.25)      MR270
+R4       10k                                                                                      R0805                                        resistor                                  (2781.25 287.5)       MR0
+R5       680                                                                                      R0805                                        resistor                                  (4793.75 406.25)      MR90
+R6       47                                                                                       R0805                                        resistor                                  (4793.75 243.75)      MR90
+R7       1k                                                                                       R0805                                        resistor                                  (4231.25 1018.75)     MR270
+R8       1k                                                                                       R0805                                        resistor                                  (4143.75 1018.75)     MR270
+R9       10k                                                                                      R0805                                        resistor                                  (3325 900)            MR0
+R10      100                                                                                      R0805                                        resistor                                  (3043.75 537.5)       MR270
+R11      10k                                                                                      R0805                                        resistor                                  (2825 700)            MR270
+R12      10k                                                                                      R0805                                        resistor                                  (2818.75 487.5)       MR270
+R13      1k2                                                                                      R0805                                        resistor                                  (2887.5 1850)         MR90
+R14      100                                                                                      R0805                                        resistor                                  (3043.75 1118.75)     MR180
+R15      33                                                                                       M0805                                        resistor                                  (2662.5 3512.5)       MR90
+R16      470k                                                                                     R0805                                        resistor                                  (2725 1850)           MR270
+R17      33                                                                                       M0805                                        resistor                                  (2750 3512.5)         MR90
+R18      1k5                                                                                      R0805                                        resistor                                  (4693.75 2175)        MR180
+R19      33                                                                                       M0805                                        resistor                                  (2837.5 3512.5)       MR90
+R20      470k                                                                                     R0805                                        resistor                                  (2887.5 2037.5)       MR90
+R21      10k                                                                                      R0805                                        resistor                                  (3068.75 1587.5)      MR180
+R22      1k2                                                                                      R0805                                        resistor                                  (2725 2037.5)         MR270
+R23      0R05                                                                                     RS05_69-70                                   resistor-power                            (1012.5 3750)         R0
+R24      22                                                                                       R0805                                        resistor                                  (4693.75 2350)        MR180
+R25      100                                                                                      R0805                                        resistor                                  (2843.75 1593.75)     MR0
+R26      1k                                                                                       0204/7                                       resistor                                  (300 2837.5)          MR90
+R27      22                                                                                       R0805                                        resistor                                  (4693.75 2262.5)      MR180
+R28      560k                                                                                     R0805                                        resistor                                  (2887.5 2337.5)       MR270
+R29      1k                                                                                       0204/7                                       resistor                                  (300 2225)            R90
+R30      10k                                                                                      R0805                                        resistor                                  (2818.75 1118.75)     MR0
+R31      82k                                                                                      R0805                                        resistor                                  (2725 2337.5)         MR270
+R32      560k                                                                                     R0805                                        resistor                                  (3037.5 2337.5)       MR270
+R33      82k                                                                                      R0805                                        resistor                                  (3200 2337.5)         MR270
+R34      10k                                                                                      M0805                                        resistor                                  (3212.5 3512.5)       MR270
+R35      10k                                                                                      M0805                                        resistor                                  (3300 3512.5)         MR270
+R36      10k                                                                                      M0805                                        resistor                                  (3125 3512.5)         MR270
+R37      10k                                                                                      M0805                                        resistor                                  (2931.25 3512.5)      MR270
+R38      10k                                                                                      R0805                                        resistor                                  (2750 2581.25)        MR270
+R39      10k                                                                                      M0805                                        resistor                                  (3025 3512.5)         MR90
+R40      1k2                                                                                      R0805                                        resistor                                  (3037.5 1850)         MR90
+R41      470k                                                                                     R0805                                        resistor                                  (3200 1850)           MR270
+R42      470k                                                                                     R0805                                        resistor                                  (3200 2037.5)         MR90
+R43      1k2                                                                                      R0805                                        resistor                                  (3037.5 2037.5)       MR270
+R44      1k                                                                                       0204/7                                       resistor                                  (300 612.5)           R270
+R45      0R05                                                                                     RS05_69-70                                   resistor-power                            (1037.5 187.5)        R0
+R46      10k                                                                                      0204/7                                       resistor                                  (1150 1962.5)         R0
+R47      1k                                                                                       0204/7                                       resistor                                  (300 1450)            R270
+R48      10k                                                                                      0204/7                                       resistor                                  (1150 2062.5)         R0
+R49      10k                                                                                      M0805                                        resistor                                  (3000 2581.25)        MR270
+R50      10k                                                                                      M0805                                        resistor                                  (3081.25 2581.25)     MR270
+R51      10k                                                                                      M0805                                        resistor                                  (2837.5 2581.25)      MR270
+R52      10k                                                                                      M0805                                        resistor                                  (2918.75 2581.25)     MR270
+S1       1825910-6                                                                                1825910-6                                    SamacSys_Parts                            (3312.5 987.5)        R0
+S2       1825910-6                                                                                1825910-6                                    SamacSys_Parts                            (2637.5 2787.5)       R180
+U1       FT232RL                                                                                  SSOP28DB                                     SparkFun-IC-Comms                         (4543.75 981.25)      MR90
+U2       ON_SEMI_LM317BTGON_SEMI_LM317BTG_0_0                                                     ON_SEMI_LM317BTG_0                           ON Semi - LM317BTG                        (4606.25 343.75)      R0
+U3       NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPBNATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_0_2 NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_2 LM1117IMPX                                (3693.75 756.25)      MR180
+U4       ATMEGA328P-AN                                                                            QFP80P900X900X120-32N                        ATMEGA328P-AN                             (3793.75 1268.75)     MR90
+U5       TEXAS_INSTRUMENTS_TLC2262CPTEXAS_INSTRUMENTS_TLC2262CP_0_0                               TEXAS_INSTRUMENTS_TLC2262CP_0                Texas Instruments - TLC2262CP             (2768.75 600)         R0
+U6       AD623ANZ                                                                                 DIP254P762X533-8                             AD623ANZ                                  (3343.75 687.5)       R90
+U7       TEXAS_INSTRUMENTS_TLC2264CNTEXAS_INSTRUMENTS_TLC2264CN_0_0                               TEXAS_INSTRUMENTS_TLC2264CN_0                Texas Instruments - TLC2264CN             (2962.5 2100)         R0
+U8       SC-10-30J                                                                                SC-10-30J                                    SC-10-30J                                 (950 2862.5)          R90
+U9       SC-10-30J                                                                                SC-10-30J                                    SC-10-30J                                 (912.5 1062.5)        R270
+U10      STM32F103C8T6                                                                            QFP50P900X900X160-48N                        STM32F103C8T6                             (2943.75 3087.5)      MR90
+U11      NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPBNATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_0_2 NATIONAL_SEMICONDUCTOR_LM1117IMPX-3.3-NOPB_2 LM1117IMPX                                (3781.25 2743.75)     MR180
+Y1       FOX_ELECTRONICS_FOXSLF-080-20FOX_ELECTRONICS_FOXSLF-080-20_0_0                           FOX_ELECTRONICS_FOXSLF-080-20_0              080-20                                    (3212.5 2768.75)      R0
+Y2       CSTLS16M0X53Z-A0                                                                         CSTLS16M0X53ZA0                              SamacSys_Parts                            (3018.75 950)         R0

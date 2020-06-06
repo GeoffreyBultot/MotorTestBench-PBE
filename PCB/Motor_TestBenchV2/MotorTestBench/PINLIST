@@ -1,0 +1,535 @@
+Pinlist
+
+Exported from Motor_Test_Bench.sch at 05-06-20 10:42
+
+EAGLE Version 9.5.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+C1       1        1          pas      RST_ATM
+         2        2          pas      N$14
+
+C2       1        1          pas      5V_D
+         2        2          pas      GND_D
+
+C3       1        1          pas      5V_D
+         2        2          pas      GND_D
+
+C4       1        1          pas      N$15
+         2        2          pas      GND_D
+
+C5       1        1          pas      3V3_D
+         2        2          pas      N$27
+
+C6       1        1          pas      N$27
+         2        2          pas      GND_D
+
+C7       1        +          io       V_MOT
+         2        -          io       GND
+
+C8       1        +          io       V_MOT
+         2        -          io       GND
+
+C9       1        +          io       V_BRK
+         2        -          io       GND
+
+D1       1        A_1        io       GND
+         2        CC         io       N$1
+         3        A_2        io       GND
+
+D2       1        A_1        io       GND
+         2        CC         io       N$32
+         3        A_2        io       GND
+
+IC1      1        ADDR       io                *** unconnected ***
+         2        ALERT/RDY  io                *** unconnected ***
+         3        GND        io       GND_D
+         4        AIN0       io       1V65
+         5        AIN1       io       MES_LOAD_CELL
+         6        AIN2       io                *** unconnected ***
+         7        AIN3       io                *** unconnected ***
+         8        VDD        io       3V3_D
+         9        SDA        io       SDA
+         10       SCL        io       SCL
+
+ISP1     1        MISO       in       MISO_ATM
+         2        VCC        pwr      5V_D
+         3        SCK        out      SCK_ATM
+         4        MOSI       out      MOSI_ATM
+         5        RST        out      RST_ATM
+         6        GND        pwr      GND_D
+
+J1       1        1          io       N$39
+         2        2          io       N$25
+         3        3          io       N$29
+         4        4          io       GND_D
+         MH1      MH1        io       GND_D
+         MH2      MH2        io       GND_D
+
+J2       1        1          pas      230V_P
+         2        2          pas      230V_GROUND
+         3        3          pas      230V_N
+
+J3       1        1          io       5V_D
+         2        2          io       SPEED_SENSOR_DATA
+         3        3          io       GND_D
+
+J4       1        1          pas      GND_D
+         2        2          pas      LOAD_CELL_POS
+         3        3          pas      LOAD_CELL_NEG
+         4        4          pas      5V_D
+
+J5       1        1          pas      STM_NSS
+         2        2          pas      N$40
+         3        3          pas      N$41
+         4        4          pas      N$42
+
+J6       1        1          pas      V_MOT
+         2        2          pas      GND_MOT
+
+J7       1        1          io       N$36
+         2        2          io       N$6
+         3        3          io       N$7
+         4        4          io       GND
+         MH1      MH1        io       GND
+         MH2      MH2        io       GND
+
+J8       1        1          pas      GND
+         2        2          pas      IN_100V_MOTOR
+         3        3          pas      IN_100V_MOTOR
+
+J9       1        VREF       pas      N$37
+         2        VTAR       pas      N$37
+         3        NTRST      pas      JNTRST
+         4        GND        pas      GND
+         5        TDI        pas      JTDI
+         6        GND        pas      GND
+         7        TMS        pas      JTMS
+         8        GND        pas      GND
+         9        TCK        pas      JTCK
+         10       GND        pas      GND
+         11       RTCK       pas               *** unconnected ***
+         12       GND        pas      GND
+         13       TDO        pas      JTDO
+         14       GND        pas      GND
+         15       RST        pas      NRST
+         16       GND        pas      GND
+         17       OBGRQ      pas               *** unconnected ***
+         18       GND        pas      GND
+         19       OBGACK     pas               *** unconnected ***
+         20       GND        pas      GND
+
+J10      1        1          pas      V_BRK
+         2        2          pas      GND_BRK
+
+J11      1        1          pas      GND
+         2        2          pas      IN_100V_BRAKE
+         3        3          pas      IN_100V_BRAKE
+
+J12      1        1          io       5V_RPI
+         2        2          io                *** unconnected ***
+         3        3          io                *** unconnected ***
+         4        4          io       GND
+         MH1      MH1        io       GND
+         MH2      MH2        io       GND
+
+JP1      1        1          pas      5V_D
+         2        2          pas      N$39
+
+JP2      1        1          pas      N$8
+         2        2          pas      N$7
+
+JP3      1        1          pas      +5V
+         2        2          pas      N$36
+
+JP4      1        1          pas      +3V3
+         2        2          pas      +3V3
+         3        3          pas      BOOT1
+         4        4          pas      BOOT0
+         5        5          pas      GND
+         6        6          pas      GND
+
+JP5      1        1          pas      +3V3
+         2        2          pas      N$38
+
+JP6      1        1          pas      +3V3
+         2        2          pas      N$37
+
+JP7      1        1          pas      +5V
+         2        2          pas      5V_RPI
+
+PS1      1        AC/L       io       230V_N
+         2        -V         io       GND_D
+         3        +V         io       12V_D
+         4        AC/N       io       230V_P
+
+PS2      1        AC/L       io       230V_P
+         2        -V         io       GND
+         3        +V         io       +5V
+         4        AC/N       io       230V_N
+
+Q1       1        ANODE      io       N$34
+         2        CATHODE    io       GND_D
+         3        EMITTER    io       STM_RX
+         4        COLLECTOR  io       +5V
+
+Q2       1        G          io       N$10
+         2        D          io       N$1
+         3        S          io       IN_100V_MOTOR
+
+Q3       1        ANODE      io       N$35
+         2        CATHODE    io       GND
+         3        EMITTER    io       RX_ATM
+         4        COLLECTOR  io       5V_D
+
+Q4       1        E          io       N$11
+         2        B          io       N$21
+         3        C          io       GND
+
+Q5       1        G          io       N$16
+         2        D          io       N$32
+         3        S          io       IN_100V_BRAKE
+
+Q6       1        E          io       N$22
+         2        B          io       N$18
+         3        C          io       GND
+
+R1       1        1          pas      SCL
+         2        2          pas      5V_D
+
+R2       1        1          pas      SDA
+         2        2          pas      5V_D
+
+R3       1        1          pas      N$5
+         2        2          pas      5V_D
+
+R4       1        1          pas      5V_D
+         2        2          pas      SPEED_SENSOR_DATA
+
+R5       1        1          pas      N$3
+         2        2          pas      N$5
+
+R6       1        1          pas      GND_D
+         2        2          pas      N$3
+
+R7       1        1          pas      RX0_ATM
+         2        2          pas      TX_FTDI
+
+R8       1        1          pas      TX0_ATM
+         2        2          pas      RX_FTDI
+
+R9       1        1          pas      RST_ATM
+         2        2          pas      5V_D
+
+R10      1        1          pas      N$28
+         2        2          pas      N$26
+
+R11      1        1          pas      3V3_D
+         2        2          pas      N$27
+
+R12      1        1          pas      N$27
+         2        2          pas      GND_D
+
+R13      1        1          pas      N$47
+         2        2          pas      N$12
+
+R14      1        1          pas      N$34
+         2        2          pas      TX_ATM
+
+R15      1        1          pas      STM_SCK
+         2        2          pas      N$40
+
+R16      1        1          pas      N$12
+         2        2          pas      V_MOT
+
+R17      1        1          pas      STM_MISO
+         2        2          pas      N$41
+
+R18      1        1          pas      +3V3
+         2        2          pas      N$8
+
+R19      1        1          pas      STM_MOSI
+         2        2          pas      N$42
+
+R20      1        1          pas      N$13
+         2        2          pas      GND_MOT
+
+R21      1        1          pas      GND
+         2        2          pas      STM_RX
+
+R22      1        1          pas      GND
+         2        2          pas      N$13
+
+R23      1        1          pas      GND
+         2        2          pas      GND_MOT
+
+R24      1        1          pas      USBDM
+         2        2          pas      N$6
+
+R25      1        1          pas      N$35
+         2        2          pas      STM_TX
+
+R26      1        1          pas      N$10
+         2        2          pas      IN_100V_MOTOR
+
+R27      1        1          pas      USBDP
+         2        2          pas      N$7
+
+R28      1        1          pas      N$23
+         2        2          pas      N$9
+
+R29      1        1          pas      N$11
+         2        2          pas      N$10
+
+R30      1        1          pas      GND_D
+         2        2          pas      RX_ATM
+
+R31      1        1          pas      N$9
+         2        2          pas      GND
+
+R32      1        1          pas      N$45
+         2        2          pas      N$17
+
+R33      1        1          pas      N$17
+         2        2          pas      GND
+
+R34      1        1          pas      JTDO
+         2        2          pas      N$38
+
+R35      1        1          pas      JNTRST
+         2        2          pas      N$38
+
+R36      1        1          pas      JTDI
+         2        2          pas      N$38
+
+R37      1        1          pas      JTMS
+         2        2          pas      N$38
+
+R38      1        1          pas      NRST
+         2        2          pas      +3V3
+
+R39      1        1          pas      GND
+         2        2          pas      JTCK
+
+R40      1        1          pas      N$46
+         2        2          pas      N$20
+
+R41      1        1          pas      N$20
+         2        2          pas      V_BRK
+
+R42      1        1          pas      N$19
+         2        2          pas      GND_BRK
+
+R43      1        1          pas      GND
+         2        2          pas      N$19
+
+R44      1        1          pas      N$16
+         2        2          pas      IN_100V_BRAKE
+
+R45      1        1          pas      GND
+         2        2          pas      GND_BRK
+
+R46      1        1          pas      N$18
+         2        2          pas      PWM_BRAKE
+
+R47      1        1          pas      N$22
+         2        2          pas      N$16
+
+R48      1        1          pas      N$21
+         2        2          pas      PWM_MOTOR
+
+R49      1        1          pas      MES_U_BRAKE
+         2        2          pas      N$46
+
+R50      1        1          pas      MES_I_BRAKE
+         2        2          pas      N$45
+
+R51      1        1          pas      MES_I_MOTOR
+         2        2          pas      N$23
+
+R52      1        1          pas      MES_U_MOTOR
+         2        2          pas      N$47
+
+S1       1        1          io       RST_ATM
+         2        2          io       RST_ATM
+         3        3          io       GND_D
+         4        4          io       GND_D
+
+S2       1        1          io       GND
+         2        2          io       GND
+         3        3          io       NRST
+         4        4          io       NRST
+
+U1       1        TXD        out      TX_FTDI
+         2        DTR        out      N$14
+         3        RTS        out               *** unconnected ***
+         4        VCCIO      pwr      5V_D
+         5        RXD        in       RX_FTDI
+         6        RI         in                *** unconnected ***
+         7        GND7       pwr      GND_D
+         9        DSR        in                *** unconnected ***
+         10       DCD        in                *** unconnected ***
+         11       CTS        in                *** unconnected ***
+         12       SLEEP      in                *** unconnected ***
+         13       TXDEN      in                *** unconnected ***
+         14       PWREN      in                *** unconnected ***
+         15       USBDP      io       N$29
+         16       USBDM      io       N$25
+         17       3V3OUT     out      3V3_FTDI
+         18       GND18      pwr      GND_D
+         19       RESET      in       3V3_FTDI
+         20       VCC        pwr      5V_D
+         21       GND21      pwr      GND_D
+         22       RXLED      in                *** unconnected ***
+         23       TXLED      in                *** unconnected ***
+         25       AGND       pwr      GND_D
+         26       TEST       in       GND_D
+         27       OSCI       in                *** unconnected ***
+         28       OSCO       out               *** unconnected ***
+
+U2       1        ADJUST     in       N$5
+         2        VOUT       out      5V_D
+         3        VIN        in       12V_D
+
+U3       1        GND        pwr      GND_D
+         2        OUT        pwr      3V3_D
+         3        IN         pwr      5V_D
+         4        TAB        pwr      N$2
+
+U4       1        PD3        io                *** unconnected ***
+         2        PD4        io                *** unconnected ***
+         3        GND        pwr      GND_D
+         4        VCC        pwr      5V_D
+         5        GND        pwr      GND_D
+         6        VCC        pwr      5V_D
+         7        PB6        io       N$48
+         8        PB7        io       N$49
+         9        PD5        io       TX_ATM
+         10       PD6        io       RX_ATM
+         11       PD7        io                *** unconnected ***
+         12       PB0        io                *** unconnected ***
+         13       PB1        io                *** unconnected ***
+         14       PB2        io                *** unconnected ***
+         15       PB3        io       MOSI_ATM
+         16       PB4        io       MISO_ATM
+         17       PB5        io       SCK_ATM
+         18       AVCC       pwr      5V_D
+         19       ADC6       io                *** unconnected ***
+         20       AREF       in       N$15
+         21       GND        pwr      GND_D
+         22       ADC7       io                *** unconnected ***
+         23       PC0        io                *** unconnected ***
+         24       PC1        io                *** unconnected ***
+         25       PC2        io                *** unconnected ***
+         26       PC3        io                *** unconnected ***
+         27       PC4        io       SDA
+         28       PC5        io       SCL
+         29       PC6/!RESET io       RST_ATM
+         30       PD0        io       RX0_ATM
+         31       PD1        io       TX0_ATM
+         32       PD2        io       SPEED_SENSOR_DATA
+
+U5       1        OUT1       out      1V65
+         2        IN1-       in       1V65
+         3        IN1+       in       N$27
+         4        VDD-/GND   pwr      GND_D
+         5        IN2+       in                ***   unused    ***
+         6        IN2-       in                ***   unused    ***
+         7        OUT2       out               ***   unused    ***
+         8        VDD+       pwr      5V_D
+
+U6       1        -RG        pas      N$26
+         2        -IN        in       LOAD_CELL_NEG
+         3        +IN        in       LOAD_CELL_POS
+         4        -VS        pwr      GND_D
+         5        REF        pas      1V65
+         6        OUTPUT     out      MES_LOAD_CELL
+         7        +VS        pwr      5V_D
+         8        +RG        pas      N$28
+
+U7       1        OUT1       out      N$23
+         2        IN1-       in       N$9
+         3        IN1+       in       GND_MOT
+         4        VDD+       pwr      +5V
+         5        IN2+       in       N$13
+         6        IN2-       in       N$12
+         7        OUT2       out      N$47
+         8        OUT3       out      N$46
+         9        IN3-       in       N$20
+         10       IN3+       in       N$19
+         11       VDD-/GND   pwr      GND
+         12       IN4+       in       GND_BRK
+         13       IN4-       in       N$17
+         14       OUT4       out      N$45
+
+U8       1        1          io       V_MOT
+         2        2          io                *** unconnected ***
+         3        3          io                *** unconnected ***
+         4        4          io       N$1
+
+U9       1        1          io                *** unconnected ***
+         2        2          io       N$32
+         3        3          io       V_BRK
+         4        4          io                *** unconnected ***
+
+U10      1        VBAT       io                *** unconnected ***
+         2        PC13-TAMPER-RTC io                *** unconnected ***
+         3        PC14-OSC32_IN io       N$44
+         4        PC15-OSC32_OUT io       N$43
+         5        PD0_OSC_IN io                *** unconnected ***
+         6        PD1_OSC_OUT io                *** unconnected ***
+         7        NRST       in       NRST
+         8        VSSA       pwr      GND
+         9        VDDA       pwr      +3V3
+         10       PA0_WKUP   io                *** unconnected ***
+         11       PA1        io                *** unconnected ***
+         12       PA2        io                *** unconnected ***
+         13       PA3        io                *** unconnected ***
+         14       PA4        io                *** unconnected ***
+         15       PA5        io                *** unconnected ***
+         16       PA6        io       PWM_MOTOR
+         17       PA7        io       PWM_BRAKE
+         18       PB0        io       MES_I_BRAKE
+         19       PB1        io       MES_U_BRAKE
+         20       PB2        io       BOOT1
+         21       PB10       io       MES_U_MOTOR
+         22       PB11       io       MES_I_MOTOR
+         23       VSS        pwr      GND
+         24       VDD        pwr      +3V3
+         25       PB12       io       STM_NSS
+         26       PB13       io       STM_SCK
+         27       PB14       io       STM_MISO
+         28       PB15       io       STM_MOSI
+         29       PA8        io                *** unconnected ***
+         30       PA9        io       STM_TX
+         31       PA10       io       STM_RX
+         32       PA11       io       USBDM
+         33       PA12       io       USBDP
+         34       PA13       io       JTMS
+         35       VSS        pwr      GND
+         36       VDD        pwr      +3V3
+         37       PA14       io       JTCK
+         38       PA15       io       JTDI
+         39       PB3        io       JTDO
+         40       PB4        io       JNTRST
+         41       PB5        io                *** unconnected ***
+         42       PB6        io                *** unconnected ***
+         43       PB7        io                *** unconnected ***
+         44       BOOT0      in       BOOT0
+         45       PB8        io                *** unconnected ***
+         46       PB9        io                *** unconnected ***
+         47       VSS        pwr      GND
+         48       VDD        pwr      +3V3
+
+U11      1        GND        pwr      GND
+         2        OUT        pwr      +3V3
+         3        IN         pwr      +5V
+         4        TAB        pwr      TAB
+
+Y1       1        1          io       N$43
+         2        2          io       N$44
+
+Y2       1        1          io       N$48
+         2        2          io       GND_D
+         3        3          io       N$49
+
